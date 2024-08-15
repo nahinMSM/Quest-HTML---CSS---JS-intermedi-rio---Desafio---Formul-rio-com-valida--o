@@ -1,0 +1,97 @@
+.contener {
+  width: 800px;
+  height: 402px;
+  background-image: url('../img/background.png');
+  background-repeat: repeat-y;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.box-textos {
+  width: 300px;
+  height: 111px;
+  color: #FFFFFF;
+}
+
+.box-textos h1 {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 11px;
+}
+
+.box-textos p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.formulario {
+  width: 340px;
+  height: 378px;
+  background: #FFFFFF;
+  padding: 20px 22px
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form input {
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px solid #000000;
+}
+
+.form textarea {
+  border-radius: 5px;
+  resize: none;
+  padding: 8px;
+  border: 1px solid #000000;
+}
+
+input.active,
+textarea.active {
+  border: 1px solid #F52E2E;
+}
+
+input.desativado,
+textarea.desativado {
+  border: 2px solid #00C22B
+}
+
+.form label {
+  position: relative;
+  color: #F52E2E;
+  font-size: 8px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+
+.form label span {
+  position: absolute;
+  bottom: -9px;
+}
+
+.form p {
+  margin-top: -4px;
+  margin-left: -7px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.form button {
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: #3CCC87;
+  padding: 12px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,18 @@
+@media(max-width: 914px) {
+  .contener {
+    height: 80vh;
+    width: 90vw;
+    background-size: cover;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .box-textos h1 {
+    margin-bottom: 20px;
+  }
+
+  .box-textos p {
+    font-size: 17px;
+  }
+
+}

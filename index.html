@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
+  <title>Desafio - Formulário com validação</title>
+</head>
+
+<body>
+  <main>
+    <div class="contener">
+      <section class="box-textos">
+        <h1>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+        <p>
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.
+        </p>
+      </section>
+      <section class="formulario">
+        <form class="form">
+          <label class="requered">
+            <input type="text" placeholder="Nome completo *">
+            <span></span>
+          </label>
+
+          <label class="requered">
+            <input type="email" id="email" placeholder="Email *">
+            <span></span>
+          </label>
+
+          <label class="requered">
+            <input type="tel" id="telefone" placeholder="Telefone *">
+            <span></span>
+          </label>
+
+          <label>
+            <textarea cols="30" rows="6" placeholder="Mensagem *"></textarea>
+            <span class="textArea"></span>
+          </label>
+          <p>*campos obrigatórios</p>
+
+          <button id="botao-enviar">Enviar</button>
+        </form>
+      </section>
+    </div>
+  </main>
+  <script src="src/js/script.js"></script>
+</body>
+
+</html>
